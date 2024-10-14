@@ -3,7 +3,6 @@ package samples.com.microsoft.azure.sdk.iot.assessment;
 import com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTransportProtocol;
 
 class Configuration {
-
 	public static final ProvisioningDeviceClientTransportProtocol PROVISIONING_DEVICE_CLIENT_TRANSPORT_PROTOCOL = ProvisioningDeviceClientTransportProtocol.MQTT;
 
     // The scope Id of your DPS instance. This value can be retrieved from the Azure Portal
