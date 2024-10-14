@@ -7,7 +7,6 @@ class Configuration {
 	public static final ProvisioningDeviceClientTransportProtocol PROVISIONING_DEVICE_CLIENT_TRANSPORT_PROTOCOL = ProvisioningDeviceClientTransportProtocol.MQTT;
 
 
-    // The scope Id of your DPS instance. This value can be retrieved from the Azure Portal
     public static final String ID_SCOPE = "0ne00DC4B4E";
 
     // Typically "global.azure-devices-provisioning.net"
@@ -18,8 +17,8 @@ class Configuration {
     // For the sake of security, you shouldn't save keys into String variables as that places them in heap memory. For the sake
     // of simplicity within this sample, though, we will save it as a string. Typically this key would be loaded as byte[] so that
     // it can be removed from stack memory.
-    public static final String SYMMETRIC_KEY = "wYTa8QF/NZ8HhElxJ3QrVPjj2V53v1XlE+eDoax3/llM7FuS9tMQXQogTduP8GV3h4cjYjVNjK5IAIoTONUYOQ==";
+    public static final String SYMMETRIC_KEY = "2sJVBLn0gqy5rv6kwlnAuFVba036qzD6ou9T5w/vIQ5fM77Wn0isQQQ+ivMZJMXGgFV3sOyehvzUAIoTCQJ1kw==";
 
     // The registration Id to provision the device to. When creating an individual enrollment prior to running this sample, you choose this value.
-    public static final String REGISTRATION_ID = "Amrit-device1";
+    public static final String REGISTRATION_ID = "batch2-hp-vehicle1";
 }
